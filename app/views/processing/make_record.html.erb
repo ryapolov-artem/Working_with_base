@@ -1,0 +1,17 @@
+<center>Сделать запись в базу данных</center>
+<br />
+<div>
+	<% if @text!=nil%>
+	<%= @text%>
+	<% end %>
+</div>
+<div>
+	<%= form_for(@item, :url => {:action => "create_record"}) do |f|%>
+	Название <%= f.text_field :name %> <br />
+	Описание <%= f.text_field :description %> <br />
+	Владелец <%= f.text_field :owner %> <br />
+	Держатель <%= f.text_field :holder %> <br />
+	<%= f.submit ("Сделать запись")%>
+	<% end %>
+</div>
+
