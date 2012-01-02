@@ -1,5 +1,5 @@
 <div id='content'>
-	<h2>Сделать запись в базу данных</h2>
+	<h2>Создать запись о новом предмете</h2>
       
 	<%= form_for(@item, :url => {:action => "create_record"}) do |f|%>
 	<table><tr><td>Название</td>	
@@ -10,7 +10,7 @@
 	    <td><%= f.text_field :owner, :size=>30 %> </td></tr>
 	<tr><td>Держатель</td>
 	    <td><%= f.text_field :holder, :size=>30 %> </td></tr>
-	<tr><td><%= f.submit ("Сделать запись")%></td></tr></table>
+	<tr><td><%= f.submit ("Создать запись")%></td></tr></table>
 	<% end %>
 </div>
 

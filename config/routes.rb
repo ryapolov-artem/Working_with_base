@@ -1,5 +1,7 @@
 WorkingWithBase::Application.routes.draw do
   
+  resources :users
+
   root :to => 'processing#index'
 
   get "processing/index", :as => "index";
@@ -8,9 +10,7 @@ WorkingWithBase::Application.routes.draw do
 
   get "processing/extract_record", :as => "read_record";
 
-  get "processing/show_record", :as => "show_record";
-
-  # The priority is based upon order of creation:
+   # The priority is based upon order of creation:
   # first created -> highest priority.
 
   # Sample of regular route:

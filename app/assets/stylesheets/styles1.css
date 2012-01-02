@@ -1,10 +1,21 @@
 body {margin: 0px;
       background-color: white;}
 
+header {margin: 0 auto;}
+
 #content {background-color: white;
 	  margin-left: 150px;
 	  margin-right: 150px;
 	  font-family: 'Arial'}
+
+#content h2 {margin-left: 150px;}
+
+#notice {color: red;
+	margin-left: 150px;
+	margin-right: 150px;}
+
+p {margin-left: 120px;
+       margin-right: 100px;}
 
 table {margin: 0 auto;
        margin-top: 10px;}
@@ -13,7 +24,7 @@ h2 {margin: 0;
     margin-left: 180px;
     margin-right: 150px;}
 
-#link {background: #0080FF;
+#link {background: #8070FF;
    border-bottom-left-radius: 15px;
    border-bottom-right-radius: 15px;
    border-top-left-radius: 15px;

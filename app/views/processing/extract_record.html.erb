@@ -1,10 +1,8 @@
-<h2>Прочитать запись из БД</h2>
-<br />
-<div>
+<div id='content'>
+	<h2>Прочитать запись из БД</h2>
 	<%= form_for(@item, :url => {:action => "show_record"}) do |f|%>
 	<table><tr><td>Введите номер записи</td>	
 	           <td><%= f.text_field :id, :size=>10 %> </td></tr>
 	<tr><td><%= f.submit ("Показать запись")%></td></tr></table>
 	<% end %>
 </div>
-

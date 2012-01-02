@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>WorkingWithBase</title>
-  <%= stylesheet_link_tag("styles1", :media => 'all')%>
+  <title> <%= @title %> </title>
+  <%= stylesheet_link_tag("styles1", :media => 'screen')%>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <%= render('layouts/header')%> 	<!отображение партиала _header.html.erb>
+  <%= yield %>
+  
 </body>
 </html>

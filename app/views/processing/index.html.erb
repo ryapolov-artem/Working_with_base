@@ -1,9 +1,10 @@
-
 <div id='content'>
-<table> <tr> 
-<td> <div id='link'>
-	<%= link_to 'Сделать запись в БД', new_record_path %> </div> </td> 
-<td> <div id='link'>
+	<div id='notice'><%= flash[:notice]%><div>
+
+	<table> <tr> 
+		<td> <div id='link'>
+	<%= link_to 'Новая запись', new_record_path %> </div> </td> 
+	<td> <div id='link'>
 	<%= link_to 'Прочитать запись из БД', read_record_path %> </div> </td> </tr> 
-</table>
+	</table>
 </div>
