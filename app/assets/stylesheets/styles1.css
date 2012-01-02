@@ -1,0 +1,27 @@
+body {margin: 0px;
+      background-color: white;}
+
+#content {background-color: white;
+	  margin-left: 150px;
+	  margin-right: 150px;
+	  font-family: 'Arial'}
+
+table {margin: 0 auto;
+       margin-top: 10px;}
+
+h2 {margin: 0; 
+    margin-left: 180px;
+    margin-right: 150px;}
+
+#link {background: #0080FF;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   padding: 10px;}
+
+a {text-decoration: none;}
+a:hover {color: red;}
+a:link {color: white;
+	font-weight: bold;}
+a:visited {color: white;}

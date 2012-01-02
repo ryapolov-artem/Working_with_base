@@ -14,10 +14,10 @@ ActiveRecord::Schema.define(:version => 20111220172305) do
 
   create_table "items", :force => true do |t|
     t.string   "name",         :limit => 20
-    t.text     "description",  :limit => 255
+    t.text     "description"
     t.string   "owner",        :limit => 40
     t.string   "holder",       :limit => 40
-    t.boolean  "availability",                :default => true
+    t.boolean  "availability",               :default => true
     t.datetime "created_at"
     t.datetime "updated_at"
   end

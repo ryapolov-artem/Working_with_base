@@ -5,7 +5,7 @@
 	<%= @text%>
 	<% end %>
 </div>
-<div>
+<div id='content'>
 	<%= form_for(@item, :url => {:action => "create_record"}) do |f|%>
 	Название <%= f.text_field :name %> <br />
 	Описание <%= f.text_field :description %> <br />
